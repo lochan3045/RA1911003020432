@@ -1,0 +1,139 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <style>
+       @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+ 
+        {
+         margin: 0;
+         padding: 1px;
+         box-sizing: border-box;
+         font-family: "Lato", sans-serif;
+       }
+ 
+       #imp {
+         width: 50vw;
+         isolation: isolate;
+         position: relative;
+         padding: 10px 0;
+         margin: 0 auto;
+       }
+ 
+       #imp::before {
+         content: "";
+         height: 100%;
+         width: 3px;
+         background-color: black;
+         position: absolute;
+         left: 0%;
+         top: 0%;
+       }
+ 
+       #imp .content {
+         width: 80%;
+         align-items: center;
+         padding: 2% 0;
+         padding-left: 4%;
+         border-top: 1px solid #2dd35c;
+         border-right: 1px solid #2dd35c;
+         border-bottom: 1px solid #2dd35c;
+         border-radius: 0 15vw 15px 0;
+       }
+ 
+       #imp .shape {
+         position: absolute;
+         height: 60%;
+         width: 40%;
+         border-radius: 15vw 0 0 15px;
+         z-index: 2;
+         background-color: rgba(200, 200, 220, 0.4);
+         right: 0;
+         bottom: 18%;
+         -webkit-backdrop-filter: blur(5px);
+         backdrop-filter: blur(7px);
+       }
+ 
+       #imp h1 {
+         font-size: 2rem;
+         font-weight: normal;
+       }
+       #imp h1 strong {
+         font-weight: bold;
+         color: #5553b7;
+       }
+ 
+       #imp .all-buttons {
+         margin-top: 2%;
+       }
+ 
+       #imp button {
+         height: 36px;
+         cursor: pointer;
+         border-radius: 20px;
+         padding: 0 10px;
+         font-weight: bold;
+         margin-right: 10px;
+       }
+ 
+       .green-button {
+         background-color: #2dd35c;
+         color: white;
+         border: 1px solid #2dd35c;
+       }
+ 
+       .blue-button {
+         background-color: white;
+         color: #5553b7;
+         border: 1px solid #5553b7;
+       }
+     </style>
+     <title>RA1911003020432</title>
+   </head>
+   <body>
+     <div id="imp">
+       <div class="content">
+         <h1>&nbsp&nbspReady to Automate your<br><strong>&nbsp&nbspE-Commerce store ?</strong></h1>
+         <div class="all-buttons">
+           <button class="green-button">Try for free</button>
+           <button class="blue-button">Book a demo</button>
+         </div>
+       </div>
+       <div class="shape"></div>
+     </div>
+     <br><br>
+     Question no.2
+function getUrlParameterValue(url, parameter) {
+        var urlParamsAll = url.substring(url.indexOf("?" + 1));
+        var urlParamsArr = urlParamsAll.split("&");
+        for (let i = 0; i < urlParamsArr.length; i++) {
+          temp = urlParamsArr[i].split("=");
+          if (temp[0] == parameter) {
+            return temp[1];
+          }
+        }
+        return "Not Found";
+      }
+      <br>
+    Question no.3
+    function reverse(number) {
+        var num = parseInt(number);
+        var reverse = 0;
+        while (num > 0) {
+          reverse *= 10;
+          reverse += num % 10;
+          num = parseInt(num / 10);
+        }
+        return revNum;
+      }
+      <br>
+    Question no.4
+      I have work on mini project which is personal portfolio website 
+    <br>
+    Question no.5
+      I would choose pranjal and shubham my school mate friends because they are dedicated toward their work and also intelligent.
+   </body>
+ </html>
